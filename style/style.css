@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+} /*resetando o css dos elementos*/
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 24, 24);
+}/*estilizando a main*/
+
+.content img{
+    width: 300x;
+    height: fit-content;
+    margin-bottom: 30px;
+}
+
+.content{
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#no{
+    color: whitesmoke;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+}
+
+#yes{
+    color: whitesmoke;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(19, 185, 55);
+}
